@@ -410,8 +410,11 @@ h6, .h6 {
 
 .display-3 {
   font-size: 4.5rem;
-  font-weight: 300;
+  font-weight: 900;
   line-height: 1.2;
+  color: white;
+  text-shadow: 4px 0px #000;
+
 }
 
 .display-4 {
@@ -4934,6 +4937,15 @@ tbody.collapse.show {
   margin-bottom: 2rem;
   background-color: #e9ecef;
   border-radius: 0.3rem;
+  background-image: url(../img/ross1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.subtitles{
+  color: #ffffff;
+  font-size: 1.5rem;
 }
 
 @media (min-width: 576px) {
